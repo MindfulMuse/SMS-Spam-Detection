@@ -97,6 +97,11 @@ The trained model was deployed using **Streamlit** with a simple web-based UI.
 ## **Web Deployment**
 The model was **deployed online** using **Streamlit**, where users can enter a message and receive an instant prediction.  
 
+
+## Demo
+
+To try out the SMS Spam Detection model, visit [here](https://sms-spam-detection-bfnxawrjgl4ehspxewcnwp.streamlit.app/).
+
 ---
 
 ## Usage
