@@ -101,7 +101,7 @@ To use the SMS Spam Detection model on your own machine, follow these steps:
 
 + Run the model using 
 ```
-streamlit run app.py.
+streamlit run app.py
 ```
 + Visit localhost:8501 on your web browser to access the web app.
 
