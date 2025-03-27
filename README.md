@@ -24,13 +24,16 @@ SMS Spam Detection is a machine learning model that takes an SMS as input and pr
 | googletrans  | Automatic language translation                        |
 
 ### File Structure 
+
+```
 sms-spam-detection/
-│── model.pkl                # Trained machine learning model
-│── vectorizer.pkl           # TF-IDF Vectorizer
-│── app.py                   # Main Streamlit app
-│── sms-spam.ipynb           # Text preprocessing functions
-│── spam.csv                 # SMS spam dataset
-│── README.md                # Project Documentation
+│── model.pkl          # Trained machine learning model
+│── vectorizer.pkl     # TF-IDF Vectorizer
+│── app.py             # Main Streamlit app
+│── sms-spam.ipynb     # Text preprocessing functions
+│── spam.csv           # SMS spam dataset
+└── README.md          # Project Documentation
+```
 
 ### Data Collection
 The SMS Spam Collection dataset was collected from Kaggle, which contains over 5,500 SMS messages labeled as either spam or not spam.
@@ -64,7 +67,7 @@ To deploy the model, the following **two files** were saved using `pickle`:
 - **vectorizer.pkl** → Stores the trained TF-IDF vectorizer.
 - **model.pkl** → Stores the trained model.
 
-# **Application (`app.py`)**  
+## Application ###(`app.py`) 
 
 The trained model was deployed using **Streamlit** with a simple web-based UI.  
 
