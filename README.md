@@ -44,6 +44,9 @@ You can access the dataset from [here](https://www.kaggle.com/datasets/uciml/sms
 Install dependencies :
 
 ```
+pip install -r requirements.txt
+```
+```
 pip install numpy pandas scikit-learn nltk joblib streamlit googletrans==4.0.0-rc1
 ```
 
