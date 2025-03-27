@@ -9,6 +9,7 @@ from googletrans import Translator  # Import Translator
 # Ensure required NLTK downloads
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Load the trained model and vectorizer
 model = joblib.load("model.pkl")
