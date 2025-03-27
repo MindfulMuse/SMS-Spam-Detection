@@ -67,7 +67,7 @@ To deploy the model, the following **two files** were saved using `pickle`:
 - **vectorizer.pkl** → Stores the trained TF-IDF vectorizer.
 - **model.pkl** → Stores the trained model.
 
-## Application ###(`app.py`) 
+## Application (`app.py`) 
 
 The trained model was deployed using **Streamlit** with a simple web-based UI.  
 
