@@ -71,7 +71,7 @@ To deploy the model, the following **two files** were saved using `pickle`:
 
 The trained model was deployed using **Streamlit** with a simple web-based UI.  
 
-## **Key Functionalities**  
+## Key Functionalities  
 
 ### **Preprocessing**
 - Converts text to **lowercase**.  
