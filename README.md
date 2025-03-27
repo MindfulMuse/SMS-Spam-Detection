@@ -52,7 +52,7 @@ pip install numpy pandas scikit-learn nltk joblib streamlit googletrans==4.0.0-r
 - **Tokenization:** Converted text into individual words.
 - **Stopwords & Punctuation Removal:** Removed common words that do not add meaning.
 - **Stemming:** Reduced words to their base form using **PorterStemmer**.
-- 
+  
 ### 2. Data Cleaning and Preprocessing
 The data was cleaned by handling null and duplicate values, and the "type" column was label-encoded. The data was then preprocessed by converting the text into tokens, removing special characters, stop words and punctuation, and stemming the data. The data was also converted to lowercase before preprocessing.
 
@@ -67,7 +67,7 @@ To deploy the model, the following **two files** were saved using `pickle`:
 - **vectorizer.pkl** → Stores the trained TF-IDF vectorizer.
 - **model.pkl** → Stores the trained model.
 
-## Application (`app.py`) 
+## **Application (`app.py`)** 
 
 The trained model was deployed using **Streamlit** with a simple web-based UI.  
 
