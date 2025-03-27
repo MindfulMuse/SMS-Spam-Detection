@@ -62,7 +62,7 @@ Exploratory Data Analysis (EDA) was conducted to extract meaningful insights fro
 ### 4. Model Building and Selection
 Multiple classifier models were tried, including NaiveBayes, random forest, KNN, decision tree, logistic regression, ExtraTreesClassifier, and SVC. The best classifier was chosen based on precision, with a precision of 100% achieved.
 
-## 5. Model Deployment
+### 5. Model Deployment
 To deploy the model, the following **two files** were saved using `pickle`:
 - **vectorizer.pkl** → Stores the trained TF-IDF vectorizer.
 - **model.pkl** → Stores the trained model.
